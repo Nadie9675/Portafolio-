@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+}
+
+.project-tile {
+  padding: 1rem;
+  margin: 1rem auto;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-tile:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.project-tile a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-tile a:hover {
+  text-decoration: underline;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  #projects, #contacto {
+    padding: 2rem 1rem;
+  }
+}
